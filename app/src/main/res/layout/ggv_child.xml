@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<com.doone.CustomCollection.GonGeView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ggv"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    app:GVcellHeight="80dp"
+    app:GVcolumn="4"
+    app:GViconSize="35dp"
+    app:GVradius="8dp"
+    app:GVtextSize="12sp"
+    app:GVtextTop="5dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:background="@color/with"
+    android:layout_marginBottom="10dp"/>

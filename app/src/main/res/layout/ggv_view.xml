@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/gray"
+    android:layout_height="match_parent">
+    <com.doone.CustomCollection.HeadView
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:centreString="应用"
+        app:leftString="@string/left_name"
+        app:rightString="@string/right_name"
+        app:centreIcon="@mipmap/ic_launcher"
+        app:textColor="@color/with"
+        app:HViconSize="30dp"
+        app:HVtextSize="18sp"
+        app:space="10dp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_bar" />
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+<!--<GonGeView-->
+<!--android:id="@+id/ggv"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="0dp"-->
+<!--app:layout_constraintBottom_toBottomOf="parent"-->
+<!--app:layout_constraintLeft_toLeftOf="parent"-->
+<!--app:layout_constraintRight_toRightOf="parent"-->
+<!--app:layout_constraintTop_toTopOf="parent"-->
+<!--app:GViconSize="35dp"-->
+<!--app:GVcolumn="4"-->
+<!--app:GVtextTop="5dp"-->
+<!--app:GVcellHeight="80dp"-->
+<!--app:GVradius="8dp"-->
+<!--app:GVtextSize="12sp"-->
+    <!--/>-->

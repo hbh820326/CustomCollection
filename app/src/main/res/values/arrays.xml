@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string-array name="topian">
+        <item>pic1</item>
+        <item>pic2</item>
+        <item>pic3</item>
+        <item>pic4</item>
+        <item>pic5</item>
+        <item>pic6</item>
+        <item>pic7</item>
+        <item>pic8</item>
+        <item>pic9</item>
+        <item>pic10</item>
+        <item>pic11</item>
+        <item>pic12</item>
+        <item>pic13</item>
+        <item>pic14</item>
+        <item>pic15</item>
+        <item>pic16</item>
+        <item>pic17</item>
+        <item>pic18</item>
+        <item>pic19</item>
+        <item>pic20</item>
+        <item>timg</item>
+    </string-array>
+    <string-array name="title">
+        <item>图片01</item>
+        <item>图片02</item>
+        <item>图片03</item>
+        <item>图片04</item>
+        <item>图片05</item>
+        <item>图片06</item>
+        <item>图片07</item>
+        <item>图片08</item>
+        <item>图片09</item>
+        <item>图片10</item>
+        <item>图片11</item>
+        <item>图片12</item>
+        <item>图片13</item>
+        <item>图片14</item>
+        <item>图片15</item>
+        <item>图片16</item>
+        <item>图片17</item>
+        <item>图片18</item>
+        <item>图片19</item>
+        <item>图片20</item>
+        <item>图片GIF</item>
+
+    </string-array>
+
+</resources>

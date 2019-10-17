@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">自定义控件集合</string>
+    <string name="left_name">返回</string>
+    <string name="right_name">帮助</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>
